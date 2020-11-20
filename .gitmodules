@@ -1,9 +1,6 @@
 [submodule "units"]
-	path = units
+	path = src/units
 	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Frontend-Units
 [submodule "SubmitReview"]
-	path = SubmitReview
+	path = src/SubmitReview
 	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Frontend-SubmitReview.git
-[submodule "UnitReview"]
-	path = UnitReview
-	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Frontend.git
