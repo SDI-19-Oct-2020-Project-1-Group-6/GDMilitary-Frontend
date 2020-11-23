@@ -2,13 +2,10 @@ import React from 'react'
 import './App.css';
 import SubmitReview from './SubmitReview/component/SubmitReview'
 import UnitInformationBox from './units/UnitInformationBox'
-
+import ReviewsDisplay from './DisplayReview/displays/src/ReviewsDisplay'
 //TODO ADD SEARCH CONTAINER AND REVIEWS COMPONENTS FROM OTHER REPOS
 
 function SearchContainer() {
-  return <br />
-}
-function Reviews() {
   return <br />
 }
 class App extends React.Component {
@@ -41,12 +38,13 @@ class App extends React.Component {
         screenContent=<div>
                         <UnitInformationBox unit={this.state.unit} />
                         <SubmitReview unit={this.state.unit} />
-                        <Reviews unit={this.state.unit} />
+                        <ReviewsDisplay unit={this.state.unit} />
                       </div>
       }else{
         screenContent=<br />
       }
     }
+    // TODO some css styling
     return (
       <div className="container">
         {screenContent}
