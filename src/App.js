@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import SubmitReview from './submit/SubmitReview'
 import UnitInformationBox from './units/UnitInformationBox'
-//import ReviewsDisplay from './DisplayReview/displays/src/ReviewsDisplay'
+import Reviews from './display/Reviews'
 import SearchComponent from './search/SearchComponent'
 import Header from './search/Header'
 
@@ -35,7 +35,7 @@ class App extends React.Component {
         screenContent=<div>
                         <UnitInformationBox unit={this.state.unit} />
                         <SubmitReview unit={this.state.unit} />
-                        <ReviewsDisplay unit={this.state.unit} />
+                        <Reviews unit={this.state.unit} />
                       </div>
       }else{
         screenContent=<br />
