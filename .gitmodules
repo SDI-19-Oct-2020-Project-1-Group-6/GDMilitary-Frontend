@@ -1,11 +1,11 @@
-[submodule "units"]
+[submodule "src/search"]
+	path = src/search
+	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Search.git
+	branch = component_only
+[submodule "src/submit"]
+	path = src/submit
+	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-SubmitReview.git
+	branch = component_only
+[submodule "src/units"]
 	path = src/units
-	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Frontend-Units
-[submodule "src/SubmitReview"]
-	path = src/SubmitReview
-	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Frontend-SubmitReview.git
-	branch = component_only
-[submodule "src/DisplayReview"]
-	path = src/DisplayReview
-	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-ReviewDisplays.git
-	branch = component_only
+	url = https://github.com/SDI-19-Oct-2020-Project-1-Group-6/GDMilitary-Frontend-Units.git
